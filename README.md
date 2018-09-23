@@ -40,7 +40,8 @@
         style={{width: 200, height: 200, backgroundColor: '#fff'}} 
       />
       ```
-      ![image-size-simulator][4]
+      <img src="note/image-size.jpg" width="40%" />
+      
     - [ ] @2x, @3x... 등등 이미지 assets 어떻게 쓰는지도 + svg icon system
       - [ ] [Images][6] 
 
@@ -49,6 +50,5 @@
 [1]: https://hangeul.naver.com/font
 [2]: https://docs.expo.io/versions/v30.0.0/guides/using-custom-fonts.html#using-custom-fonts
 [3]: https://facebook.github.io/react-native/docs/image#gif-and-webp-support-on-android
-[4]: note/image-size.jpg
 [5]: https://gist.github.com/healim/7174d6caed3a48028247f83ee1ff3c79
 [6]: https://facebook.github.io/react-native/docs/images
