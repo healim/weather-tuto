@@ -5,6 +5,9 @@ import { AppLoading, Asset, Font } from 'expo';
 import NanumBarunGothic from './constant/Fonts'
 import Images from './constant/Images'
 
+import WeatherProject from './screen/WeatherProject'
+import FetchExample from './components/FetchExample'
+
 export default class App extends React.Component {
   state = {
     isLoadingComplete: false
@@ -22,25 +25,9 @@ export default class App extends React.Component {
     } else {
       return (
         <View style={styles.container}>
-          <Image source={Images.partyJpeg} 
-            style={{width: '10%', height: '10%', backgroundColor: '#fff'}} 
-          />
-          <Image source={Images.partyJpeg} 
-            style={{width: 200, height: 200, resizeMode: 'contain', backgroundColor: '#fff'}} 
-          />
-          <Image source={Images.partyJpeg} 
-            style={{width: 200, height: 200, backgroundColor: '#fff'}} 
-          />
+          <WeatherProject />
+          <FetchExample />
 
-          <Text style={styles.content}>
-            Hello, world!{'\n'}
-            <Text style={styles.smallText}>
-            Hello, world!{'\n'}
-            </Text>
-            <Text>
-            Hello, world!
-            </Text>
-          </Text>
         </View>
       )
     }
